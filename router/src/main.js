@@ -35,12 +35,3 @@ new Vue({
   el: '#app',
   router
 })
-
-/*, {
-    path: '/talk2/:id',
-    name: 'talk2',
-    components: {
-      default: require('./components/Talk.vue') ,
-      'vote': require('./components/Upvote.vue')
-    }
-} */

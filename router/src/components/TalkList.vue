@@ -4,7 +4,6 @@
       <h3 class="talk-title">{{ talk.title }}</h3>
       <div class="talk-speaker">{{ talk.speakers.join(', ') }}</div>
       <router-link :to="'/talk/' + index">En savoir plus...</router-link>
-      <!-- <div class="ui blue label"><i class="thumbs up icon"></i> {{ talk.votes }}</div> -->
     </div>
   </div>
 </template>
