@@ -1,0 +1,88 @@
+{
+  "speakers": [
+  {
+    "name": "Élie Sloïm",
+    "bio": "Elie Sloïm est fondateur de la société Temesis et du projet Opquast, écosystème dédié à la qualité du Web. Chimiste de formation, il s’est tout d’abord spécialisé dans le management de la qualité en laboratoire, métier qu’il a exercé dans le domaine du pétrole puis du vin, deux produits qu’il s’efforce depuis de consommer avec modération. Vers 2000, il décide de travailler sur la qualité du Web. Depuis, il roule sa bosse sur le Web et partage son temps entre les conférences, les missions de conseil, d’expertise, de formation, la création de référentiels de bonnes pratiques, l’écriture de livres (Qualité Web, chez Eyrolles), d'articles ou de préfaces. Il assure actuellement la direction de la société Opquast."
+  },{
+    "name": "Agnès Crepet",
+    "bio": "Agnès est une activiste. Une Java activiste tout d'abord, elle a été élue Java Champion en 2012. Après plusieurs années dans l’industrie logicielle (éditeur, SS2I, DSI), elle a co-fondé la société Ninja Squad avec d'autres développeurs passionnés.</p> <p>Parce qu'elle aime apprendre et partager, elle est très active dans la communauté. Elle a été pendant 5 ans co-leader du lyon Java User Group, elle est aujourd’hui co-leader de Duchess France, un réseau qui travaille sur la visibilité des femmes techniques dans l'IT. Elle a co-fondé en 2011 la conférence Mix-IT qu'elle organise depuis 7 ans sur Lyon.</p> <p>Elle intervient également à l’Ecole des Mines de Saint-Etienne sur des cours de programmation web et sur les pédagogies agiles."
+  },{
+    "name": "Cyril Lacote",
+    "bio": "Cyril a d'abord fait 10 ans de prestations en SSII, comme développeur Java et formateur.</p> <p>Puis il fit un passage furtif chez Google à Londres, où il resta juste le temps de réaliser la valeur qu'on pouvait accorder aux développeurs expérimentés, bien loin de l’image que lui renvoyait l’IT français. Avec Agnès et deux autres développeurs brillants qui ont bien voulu les rejoindre, il a ensuite eu la chance d’inventer la société coopérative où il avait finalement envie de travailler : Ninja Squad. Il y est maintenant développeur (tendance old-school, voire has-been depuis qu’il est papa), community manager (il sait tweeter avec des emojis et rédiger des mails polis), et CEO, bitch (il a le droit de signer des papiers, plein). Il est également impliqué dans l’organisation de la conférence Mix-IT."
+  },{
+    "name": "Emmanuel Demey",
+    "bio": "Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l’Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c’est normal…), le Jazz et la Domotique.</p> <p>Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, …"
+  },{
+    "name": "Nicolas Helleringer",
+    "bio": "Arrivé chez Criteo en 2013, Nicolas est aujourd'hui directeur du département SRE (Site Reliability Engineering).</p> <p>Cette équipe de 70 personnes est en charge du design, de l'installation, de l'industrialisation et de la maintenance de la plateforme de production de Criteo.</p> <p>Opérations, Automatisation, Big Data, NoSQL, Usines logicielles sont, entre autres, au programme sur 17 000 serveurs dans le monde.</p> <p>De 2000 à 2007, il a participé à la construction de la plateforme mappy.com en tant qu'architecte réseau et base de données. Il est également le co-concepteur du géocodeur de mappy.com et de la recherche en logique floue de celui-ci.</p> <p>Au cours de ses missions de conseil chez NovaCodex de 2008 et 2013, il est intervenu sur les fonctionnalités géographiques de Lucene puis d'Hibernate Search."
+  },{
+    "name": "Frédéric Leguédois",
+    "bio": "Frédéric Leguédois est un agiliste évangéliste, libriste et geek humaniste. Au quotidien, il anime des équipes de développement logiciel. Volontiers polémiste, il apprécie ceux qui pensent à côté, loin des évidences, assumant pleinement les contradictions d’un monde complexe."
+  },{
+    "name": "Arnaud Kervern",
+    "bio": "Développeur actif et gameur avide, Arnaud Kervern a aidé à développer l’aspect mobile de Nuxeo. Il a également travaillé sur le SDK iOS. Il développe également des applications mobiles sur son temps libre. Sa tache consiste désormais à faire connaitre Nuxeo et animer la communauté de développeurs."
+  },{
+    "name": "Gautier Mechling",
+    "bio": "Gautier est développeur Android et aspirant Craftsman. Intéressé par les méthodes agiles, le hacking et la qualité logicielle, il façonne et maintient des outils libres et gratuits permettant d’améliorer sa productivité. Parlez lui de Kotlin, de Clean Code ou de Logiciel Libre et vous pourrez voir ses yeux briller."
+  },{
+    "name": "Christian Wolf",
+    "bio": "Christian WOLF a obtenu un « Diplom Ingenieur der Informatik » de l'Université de Technologie de Vienne en 2000, puis un doctorat en informatique de l'INSA de Lyon en 2003, et l'habilitation à diriger des recherches en 2012, également de l'INSA de Lyon . De septembre 2004 à août 2005, il était Mâitre de Conférences à l'Université Louis Pasteur, Strasbourg. Depuis 2005 il est Maître de Conférences à l'INSA de Lyon et membre du Laboratoire d'Informatique en Images et Systèmes d'Information (LIRIS). Ses activités de recherche portent sur la vision par ordinateur et sur l'apprentissage automatique, particulièrement sur les modèles graphiques, le deep learning, l'interprétation de scènes complexes, la reconnaissance de gestes et d'activités humaines, et sur la vision par ordinateur pour la robotique."
+  },{
+    "name": "Bruno Bonnin",
+    "bio": "Architecte logiciel, développeur full stack avec une prédilection pour les technologies Java, JavaScript, NoSQL (MongoDB, Elasticsearch) et Big Data (Hadoop). Développe depuis l’époque du ZX Spectrum et pense toujours que c’est la meilleure machine de tous les temps (même si Spark a du mal a tourné dessus) !"
+  },{
+    "name": "Olivier Nourry",
+    "bio": "Consultant et formateur en accessibilité web et mobile. Voue une étrange passion à tout ce qui est en rapport avec l'accessibilité numérique, et adore en parler dès qu’on lui en donne l’occasion."
+  },{
+    "name": "Audrey Neveu",
+    "bio": "Audrey est devangelist chez Streamdata.io, spécialisée sur les problématiques API et Big Data. Passionnée par son métier, Audrey a toujours été fortement engagée dans la communauté Java au travers de plusieurs JUGs et conférences (Duchess France, Paris JUG, Devoxx France, Devoxx UK) mais aussi au sein d’initiatives visant à faire découvrir la programmation aux plus jeunes (Programatoo, Devoxx4Kids)."
+  },{
+    "name": "Nicolas Hoffmann",
+    "bio": "Nicolas est un soldat monté pacifiquement au front (-end) depuis plus de 10 ans en web agency en Suisse.</p> <p>Il dompte avec pragmatisme la créativité de ses graphistes par le truchement des CSS avec un niveau d’exigence qualitatif proche de l’horlogerie suisse, mais sans faire coucou.</p> <p>Directeur du collectif OpenWeb, auteur du micro-framework CSS Röcssti, de plugins accessibles avec de l’ARIA dedans et de plus d’une cinquantaine d’articles sur la conception de CSS, Google Analytics, la qualité Web, etc., il est parfois délicatement surnommé « le Suisse-Allemand de la qualité Web » parce qu’il aurait eu un bon score à la certification Opquast.</p> <p>Le pire, c’est qu’il prend ce surnom comme un compliment."
+  },{
+    "name": "Christophe Hermann",
+    "bio": "J’ai commencé à réaliser mes premières maquettes graphique et à écrire mes premières lignes de HTML, CSS en 2005, lorsqu’avec un groupe d’amis, nous avions créer une équipe d’eSport. J’y prenais tellement de plaisir que j’ai décidé de poursuivre dans cette voie et en faire mon métier. J’ai donc suivi une formation d’infographie en alternance dans une agence Web en Alsace, durant une année à partir de 2009. Suite à cette formation, j’ai rejoins une société du secteur de la santé et du bien-être, où j’étais en charge de toute la partie front-end (design et intégration) des sites et des applications du groupe. Fin 2013, j’ai été recruté par Nvision, une agence située au Luxembourg, en qualité de développeur front-end. Depuis, j’ai évolué au sein de la société et je suis aujourd’hui responsable de la partie « front-end », où j’assure la coordination entre le design et l’intégration. J’interviens également sur les problématiques d’expériences utilisateurs et d’ergonomie."
+  },{
+    "name": "Vincent Agnano",
+    "bio": "Développeur Web, salarié, je travaille dans le cadre d’une société coopérative, Scopyleft. Depuis plus de 2 ans je voyage et vis comme “digital nomad”, sans logement fixe."
+  },{
+    "name": "Horacio Gonzalez",
+    "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d’années déjà. Passionné d’informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n’a pas arrêté de bosser autour.</p> <p>Après quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, entreprise spécialisée dans le domaine du Big Data. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley.</p> <p>Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer."
+  },{
+    "name": "Jean-Philippe Briend",
+    "bio": "Jean-Philippe traîne autour de Hudson/Jenkins depuis plus de 8 ans. Il a mis en place des environnements d’Intégration Continue complexe puis poussé les Best Practices de Déploiement Continu dans des entreprises de toutes tailles. Il est maintenant Solutions Architect chez CloudBees et côtoie tous les jours des usages très diversifiés (voir exotiques) de Jenkins en entreprise."
+  },{
+    "name": "Delphine Malassingne",
+    "bio": "Delphine Malassingne est Responsable qualité chez Ekino. Elle y accompagne les équipes dans la production de livrables de qualité mais aussi dans la façon de produire. Son enthousiasme pour le partage de connaissance l’ont amené en parallèle à participer à des projets communautaires (w3qualité, Opquast Checklists, Paris Web, notamment). Elle essaye en parallèle “d’avoir une vie” en dessinant un peu, en calligraphiant et a même réussi à aligner trois points de couture !"
+  },{
+    "name": "Arnaud Lemaire",
+    "bio": "J’ai été tour à tour (et pas dans le bon ordre) : CTO d’une startup, directeur de la production chez un éditeur logiciel, architecte logiciel, consultant et développeur.</p> <p>Après avoir travaillé pour des Startups, des PME, des grands groupes et le secteur public, je suis maintenant membre d’un bureau d’étude pour aider des clients de toute taille à réussir leurs projets logiciels depuis la conception jusqu’au déploiement en production.</p> <p>Au quotidien je pratique le JS, PHP, le Python, Java, Ruby et tout les outils qui me permettent de répondre au mieux à la problématique métier du moment.</p> <p>C’est ce mélange d’expérience que je souhaite partager et transmettre lors des conférences auxquelles je participe."
+  },{
+    "name": "Quentin Bisson",
+    "bio": "Passionné d'informatique et développeur depuis mon plus jeune âge, j'ai rejoint Proxiad Axe Seine il y a maintenant 2 ans. Constamment à l'écoute des nouvelles technologies, principalement Java et JavaScript, je parcours le web à la recherche de nouvelles idées pour me permettre de gagner en temps et en qualité de développement tout en m'épanouissant dans mon travail."
+  },{
+    "name": "Julien Leicher",
+    "bio": "Élevé au grain Normand et agrémenté constamment aux nouvelles technologies, j'aime mettre mes compétences au service de projets innovants. Chez Proxiad Axe Seine depuis 3 ans, je tente toujours d'apporter un regard neuf sur les technologies mises en place et proposées à nos clients... En bref, limitons l’Access, priorité à MongoDB (l'argumentaire reste à peaufiner !). Passionné d'Open Source et de toutes les technologies à la mode, j'aime expérimenter et partager mes découvertes avec le reste du monde."
+  },{
+    "name": "Olivier Leplus",
+    "bio": "My day to day my mission is to help developers create successful and quality apps. As a passionate web developer, I am always discovering and playing with new web technologies !"
+  },{
+    "name": "Yoann Ono Dit Biot",
+    "bio": "Yoann est consultant en sécurité informatique et co-fondateur de la société SYNHACK. Il a commencé à bidouiller et développer dès son plus jeune age avant de se tourné vers le hacking et la sécurité informatique. Il tentera sûrement de vous convaincre de développer en Python..."
+  },{
+    "name": "Julien Baron",
+    "bio": "Jeune diplômé de l’INSA de Rouen, je suis passionné de technologie et de sciences mais je garde aussi du temps pour pratiquer une activité physique régulière et manger 5 fruits et légumes par jour."
+  },{
+    "name": "Fabrice Croiseaux",
+    "bio": "Passionné de culture numérique, de développement et d’architecture, Fabrice est actuellement CEO de la société InTech (http://www.intech.lu). Il a débuté sa carrière en développant des serveurs d’applications Smalltalk avant de migrer sur Java dès 1998. Il contribue à l’évangélisation des technologies émergentes susceptibles de transformer les usages (blockchain, Machine Learning, IoT, …) Au travers de Nipdev, Fabrice cherche avec son complice Antoine (@antoined) à donner envie à chacun de découvrir la programmation. Fabrice est actuellement responsable du groupe de travail blockchain de la Fédération des Tiers de Confiance en France (http://www.fntc.org)"
+  },{
+    "name": "Bastien Jaillot",
+    "bio": "Bastien est un passionné qui s’est investi très tôt dans la promotion des logiciels libres et des formats ouverts. Au quotidien, il met ses compétences au service de projets diverses, principalement dans des contextes à fort trafic fortement évolutifs. Il a co-fondé la société JoliCode ciblant l’expertise Web et mobile, avec pour objectif d’apporter son soutien à des projets innovants.</p> <p>Orateur aux cycles de conférences SudWeb, Paris Web, PHPTour, ForumPHP, Symfony Live, E1 ainsi qu’à divers Meetup, sur des sujets aussi bien techniques (Symfony2, Drupal, Framework vs CMS) que méthodologiques (Gestion de projet technique, retour d’expérience, dette technique).</p> <p>Bastien Jaillot est également l’auteur du livre “La dette technique” aux éditions du train de 13h37."
+  },{
+    "name": "Simon Georges",
+    "bio": "Simon est un expert Drupal (dans le monde Drupal depuis bientôt 10 ans), qui s'intéresse au référencement, pour comprendre et agir sur l'ensemble de la production d'un site web, si possible avec uniquement des logiciels libres."
+  },{
+    "name": "Fabien Vauchelles",
+    "bio": "Fabien est CTO de Zelros et s’intéresse au business de la data depuis 2 ans. Il intervient dans plusieurs conférences comme Breizhcamp, PyData, Voxxed Lu, Riviera Dev, ainsi que régulièrement dans des meetups et BBL sur Paris (Paris.py, Paris Digital, IppEvent, Xebia, SFEIR, etc.) Aujourd’hui, il propose à ses clients des applications qui leurs permettent de comprendre leurs données et d’envisager le futur.</p> <p>Il est également un expert en scraping (récupération automatique de données non structurées). Il a développé le proxy opensource Scrapoxy (http://scrapoxy.io) : un proxy dédié aux scrapers."
+  }]
+}

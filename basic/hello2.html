@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VueJS - Hello</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-theme.min.css">
+    <script src="static/jquery/jquery.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vue/vue.js"></script>
+    <style type="text/css">
+    .fade-enter-active, .fade-leave-active {
+      transition: opacity .5s
+    }
+    .fade-enter, .fade-leave-active {
+      opacity: 0
+    }
+    </style>
+  </head>
+  <div class="container">
+    <div id="app">
+      <h1>Bonjour {{ name }} !</h1>
+      <input type="text" v-model="name">
+      <p>{{ name }}</p>
+      <button @click="changeText">Change text</button>
+      <button v-bigbutton:success>Yes !</button>
+      <div>
+        <button @click="changerAvis">Un autre avis</button>
+        <transition name="fade">
+          {{ opinions[idOpinion] }}
+        </transition>
+      </div>
+    </div>
+  </div>
+  <script>
+  import 'semantic-ui-css'
+  
+  Vue.directive('bigbutton', {
+    bind (el, binding, vnode) {
+      console.log(binding)
+      el.classList = 'btn btn-lg btn-' + binding.arg
+    }
+  })
+
+  var vm = new Vue({
+    el:"#app",
+
+    data: {
+      name: 'Codeurs en Seine',
+      opinions: [ 'Sympa ce framework VueJS, mais passera pas l\'hiver', 'VueJS: simplicité, efficacité, fun !' ],
+      idOpinion: 0
+    },
+    created () {
+      console.log("created")
+    },
+    methods: {
+      changeText () {
+        $('p').text('hello')
+      },
+      changerAvis () {
+        this.idOpinion = (this.idOpinion + 1) % 2
+      }
+    }
+  })
+  </script>
+</html>

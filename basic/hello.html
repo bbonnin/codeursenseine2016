@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VueJS - Hello</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-theme.min.css">
+    <script src="static/jquery/jquery.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vue/vue.js"></script>
+  </head>
+  <div class="container">
+
+    <div id="app">
+      <div>
+
+        <h1>Bonjour {{ name }} !</h1>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <script>
+
+  var confdata = {
+    name: 'Codeurs en Seine'
+  }
+
+  var vm = new Vue({
+    
+    el:"#app",
+
+    data: confdata,
+  })
+
+  </script>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VueJS - Hello</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-theme.min.css">
+    <style>
+    .expand-transition {
+      transition: all .3s ease;
+      height: 220px;
+      overflow: hidden;
+    }
+    .expand-enter, .expand-leave {
+      height: 0;
+      opacity: 0;
+    }
+    .fade-enter-active, .fade-leave-active {
+      transition: opacity .8s
+    }
+    .fade-enter, .fade-leave-active {
+      opacity: 0
+    }
+    </style>
+    <script src="static/jquery/jquery.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vue/vue.js"></script>
+  </head>
+  <div class="container">
+    <div class=""
+
+    <div id="app">
+      <div>
+
+        <h1>Bonjour {{ name }} !</h1>
+      
+        <input class="form-control" type="text" v-model="name">
+
+        <h2>Speakers</h2>
+
+        <div>Les speakers: {{ allSpeakers }}</div>
+        <div v-once>Les speakers (au début): {{ allSpeakers }}</div>
+        <div>Il y a {{ nbSpeakers }} speakers</div>
+        
+        <button class="btn btn-primary" v-on:click="addSpeaker">Ajouter Speaker</button>
+
+        <h2>Un bon livre ?</h2>
+        <input type="checkbox" v-model="showMeABook"> Voir ce livre
+        <transition name="fade">
+          <p v-if="showMeABook"><img src="static/book.png" height="300"/></p>
+        </transition> 
+      
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  <script>
+  var confdata = {
+    name: 'Codeurs en Seine',
+    speakers: [ 'Prof', 'Grincheux', 'Atchoum' ],
+    nbSpeakers: 0,
+    showMeABook: false
+  }
+
+  var vm = new Vue({
+    el:"#app",
+    data: confdata,
+    created () {
+      this.nbSpeakers = this.speakers.length
+    },
+    watch: {
+      speakers (val) {
+        this.nbSpeakers = val.length
+      }
+    },
+    computed: {
+      allSpeakers () {
+        return this.speakers.sort().join(', ')
+      }
+    },
+    methods: {
+      addSpeaker () {
+        this.speakers.push('Dormeur')
+      }
+    }
+  })
+  </script>
+</html>

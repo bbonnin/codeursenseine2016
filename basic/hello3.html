@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VueJS - Hello</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-theme.min.css">
+    <script src="static/jquery/jquery.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vue/vue.js"></script>
+  </head>
+  <div class="container">
+    <div id="app">
+      <h1>Bonjour {{ wfullname }} - {{ cfullname }} !</h1>
+    </div>
+  </div>
+  <script>
+  var vm = new Vue({
+    el:"#app",
+
+    data: {
+      firstname: 'Archibald',
+      lastname: 'Haddock',
+      wfullname: 'Archibald Haddock'
+    },
+    computed: {
+      cfullname () {
+        console.log('computed fullname')
+        return this.firstname + ' ' + this.lastname
+      }
+    },
+    watch: {
+      firstname (val) {
+        console.log('watch firstname')
+        this.wfullname = val + ' ' + this.lastname
+      },
+      lastname (val) {
+        console.log('watch lastname')
+        this.wfullname = this.firstname + ' ' + val
+      }
+    },
+    methods: {
+      updateNames () {
+        this.firstname = 'Tryphon'
+        this.lastname = 'Tournesol'
+      }
+    }
+  })
+  </script>
+</html>

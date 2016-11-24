@@ -1,0 +1,165 @@
+{ "talks": [
+    {
+        "title": "Codeurs du monde",
+        "datetime": "2016/11/24T09:00",
+        "description": "Agnès et Cyril ont eu la chance de voyager à travers le monde, notamment à la rencontre des communautés de développeurs. Leur joies, leurs peines, leurs difficultés comme leurs facilités, sont parfois très différentes des nôtres. Nous découvrirons ainsi ce que peut être la vie d’un-e développeur-euse loin de la France. De retour chez nous, il s’agira aussi de comprendre la vie de développeurs mûrissant, qui ont choisi le métier qu’ils aiment plutôt que celui qu’on leur suggère, qui ont créé leur propre cadre de travail, ne veulent pas lâcher les meetups ni les engagements associatifs, tout en préservant la vie de famille. Ne rigole pas, jeune étudiant-e, voilà ce qui t’attend ! Et malgré cette difficile conciliation, c’est pourtant une vie pleine de possibles.",
+        "speakers": ["Agnès Crepet", "Cyril Lacote"],
+        "votes": 0
+    },{
+        "title": "Angular2 et les standards du web",
+        "datetime": "2016/11/24T10:00",
+        "description": "Nous avions l’habitude des projets open-source qui réinventait la roue à chaque fois : une gestion de l’internationalisation maison, un système de détection de la fin d’une tâche asynchrone via des $apply et des $digest, … L’équipe en charge du développement d’angular2 a réfléchi longuement, avant de refaire la même erreur. En effet, lorsque vous allez développer votre prochaine (ou première) application Angular2, vous allez utiliser, sans le -savoir, les standards actuels et futurs du monde Web. Dans ce talk, je vais vous présenter une partie de ces standards (actuels ou futurs) utilisés lors d’un développement Angular2 : les Web Components, l’objet Intl pour l’internationalisation, les Décorators, les Zones, …",
+        "speakers": ["Emmanuel Demey"],
+        "votes": 0
+    },{
+        "title": "SRE @ Criteo, Why What Who How ?",
+        "datetime": "2016/11/24T10:00",
+        "description": "Dans les entreprises du web à grand échelle, on ne parle plus de PROD mais de Site Reliability Engineering.Pourquoi un tel changement, que se cache-t-il derrière cette terminologie, qui sont les acteurs de cette mutation et comment embrasser le mouvement ? Point sur l'état de l'art et retour d'expérience sur cette mutation dans le contexte Criteo.",
+        "speakers": ["Nicolas Helleringer"],
+        "votes": 0
+    },{
+        "title": "Qui a volé l'orange ?",
+        "datetime": "2016/11/24T10:00",
+        "description": "De la culpabilisation dans la gestion de projet. La culture dominante de gestion de projet s’appuie notamment sur des engagements pris, de la contractualisation, les contrôles qui aboutissent souvent à la recherche d’un fautif en cas de problème. Ce modèle est-il le seul ? Est-il le plus efficient ? A l’issue de cette présentation vous aurez une grille de lecture très simple de mise en œuvre mais très puissante afin d’améliorer le fonctionnement de votre organisation.",
+        "speakers": ["Frédéric Leguédois"],
+        "votes": 0
+    },{
+        "title": "Construire une API flexible, composable et extensible",
+        "datetime": "2016/11/24T10:00",
+        "description": "Le design d’une bonne API n’est pas tâche facile, laquelle devient de plus en plus difficile lorsque l’on parle d’API HTTP. En effet, la qualité du réseau et à sa granularité ajoutent de nombreuses problématiques. Cette présentation résume les difficultés auxquelles nous nous sommes confrontées et que nous avons du résoudre dans le but de proposer une API HTTP pour notre plateforme open source de gestion de contenus. Dans cette présenation, nous expliquerons le design et les techniques utilisées afin d’exposer notre API core en tant que service REST, tout en conservant son extensibilité et en laissant aux clients la granularité des appels et de leurs réponses.",
+        "speakers": ["Arnaud Kervern"],
+        "votes": 0
+    },{
+        "title": "Lao-Tseu, Software Craftsman",
+        "datetime": "2016/11/24T11:00",
+        "description": "S’il avait vécu à notre époque, Lao-Tseu serait un pur développeur, un vrai de vrai. Le genre de mec smart, qui connaît les bons principes de la programmation et réfléchit avant d’agir. Celui que les entreprises cherchent tant à recruter, et qui, OKLM, transmet ses conseils à tous. Tiens d’ailleurs, tu savais que dans son bouquin : “le livre de la voie et de la vertu”, il parlait du partage de connaissance, des architectures, du testing, des cérémoniaux SCRUM, de backlog, de SOLID, de la programmation réactive fonctionnelle etc. Hein ? Tu savais pas ? Que c’était quoi ? Un truc de hippies ? Mais non, mon petit lapin ! Pas du tout ! Allez viens, assis-toi, on va lire des extraits parmi 25 chapitres de son livre, et faire l’analogie avec le développement logiciel.",
+        "speakers": ["Gautier Mechling"],
+        "votes": 0
+    },{
+        "title": "Deep Learning et Intelligence Artificielle: mythes et réalités",
+        "datetime": "2016/11/24T11:00",
+        "description": "L’apprentissage profond de représentations (le Deep Learning) est une famille de méthodes du domaine « intelligence artificielle » permettant d’apprendre de connaissances à partir de masses de données (textes, images, vidéos etc.). Plus précisément, ces modèles permettent de faire des prédictions sur des nouvelles données. Cette intervention passera en revue l’historique de cette thématique, les principaux acteurs et les enjeux majeurs. Les techniques clé sont brièvement esquissées, suivi par quelques résultats sur des applications diverses telles que la reconnaissance d’objets, les interfaces homme-machine et les applications mobiles.",
+        "speakers": ["Christian Wolf"],
+        "votes": 0
+    },{
+        "title": "Vue, j'avais pas vu !",
+        "datetime": "2016/11/24T11:00",
+        "description": "Vue.js, on pourrait presque passer à côté sans la remarquer tellement cette librairie est discrète. Ce serait dommage ! Alors, partons à la découverte de cette librairie JavaScript pour le développement web, simple, légère et qui offre une excellente alternative à Angular ou React, pour ceux qui souhaitent ne pas investir trop de temps dans l’apprentissage d’un nouveau framework.",
+        "speakers": ["Bruno Bonnin"],
+        "votes": 0
+    },{
+        "title": "Concevoir une expérience Web mobile plus accessible",
+        "datetime": "2016/11/24T11:00",
+        "description": "Tu as bien bossé: ton site s’affiche parfaitement bien sur tous les appareils mobiles, de toutes tailles, tous OS et toutes couleurs de coque. Et tu te dis que, ça y est, tu as fini, tu peux enfin manger ta pizza froide. Mais une petite voix te souffle à l’oreille: “est-ce que tu as pensé à tous les utilisateurs?”. Cette petite voix, c’est ta conscience. À moins que ce soit quelqu’un comme moi, qui vient te ramener à la dure réalité: il y a des tas de gens qui n’utilisent pas leur mobile comme toi, moi, et tous ceux qui se contentent bêtement de regarder leur écran avec leurs yeux, et de swiper avec leurs doigts. Que l’on utilise un lecteur d’écran, des caractères agrandis, un switch, ou un clavier, une expérience Web mobile n’est satisfaisante que si le designer a anticipé ces situations, et a appliqué quelques règles simples. Cette présentation introduit le sujet de l’accessibilité mobile, présente les principales bonnes pratiques, pointe de précieuses ressources, et, si vous êtes sages, vous apprendra même les rudiments du test d’accessibilité sur mobile.",
+        "speakers": ["Olivier Nourry"],
+        "votes": 0
+    },{
+        "title": "L'ISS en temps réel sur mon mobile en 15 mn ? Pari tenu !",
+        "datetime": "2016/11/24T12:00",
+        "description": "Dans ce talk nous verrons comment en quinze minutes et en utilisant deux outils d’une simplicité redoutable, nous allons pouvoir réaliser une application mobile affichant la position de l’ISS sur une carte, en temps réel. D’un côté, Streamdata.io et son SDK qui en moins de dix lignes de code est capable de streamer n’importe quelle API et nous donnera la position de l’ISS comme si nous étions à bord. De l’autre, Ionic, un framework mobile hybride aussi efficace que puissant pour l’afficher et le déployer sur toutes les plateformes en moins de temps qu’il n’en faut pour le dire. Alors, on parie ?",
+        "speakers": ["Audrey Neveu"],
+        "votes": 0
+    },{
+        "title": "Content Security Policy, votre futur meilleur ami",
+        "datetime": "2016/11/24T12:00",
+        "description": "Content Security Policy (CSP) est un standard du W3c qui gagne à être connu et déployé : il vous permet de dire au navigateur, via un simple en-tête HTTP, ce qu’il est autorisé à exécuter sur votre front-end… ou pas. En créant des directives appropriées, vous pouvez protéger vos utilisateurs - et pas qu’eux - de bon nombre de désagréments. Sans le savoir, vous surfez déjà sur des sites qui utilisent efficacement CSP : vous devez sûrement connaitre de « petits » sites comme… Twitter, Facebook, Github, etc. ? Ils utilisent tous CSP. Clairement estampillé sécurité, CSP a été créé à l’origine pour lutter contre les failles XSS, dites de « Cross-Site-Scripting ». Il se révèle aussi (et surtout) un fantastique outil d’amélioration continue de votre front : monitoring, propreté du code, etc.",
+        "speakers": ["Nicolas Hoffmann"],
+        "votes": 0
+    },{
+        "title": "Un petit pas pour le développeur, un grand pas pour la qualité",
+        "datetime": "2016/11/24T12:00",
+        "description": "Aujourd’hui, on en demande toujours plus aux développeurs, le tout dans des délais de plus en plus court. Comment maintenir, voire améliorer la qualité de ce qu’on produit dans ces conditions ? Les conventions et les checklist sont une piste pour y répondre.",
+        "speakers": ["Christophe Hermann"],
+        "votes": 0
+    },{
+        "title": "Digital nomad : Développeur sans domicile fixe",
+        "datetime": "2016/11/24T12:00",
+        "description": "Certains d’entre nous on encore un travail du lundi au vendredi, de 9h à 18h. Quelques un exercent depuis le bureau, la maison voire d’un espace de coworking. Faisons quelques pas en plus dans le monde du travail à distance et challengons l’idée d’une vie dématérialisée. Au travers du “Digital nomadism” Nous allons effacer cette frontière entre le travail, la vie quotidienne et les voyages.",
+        "speakers": ["Vincent Agnano"],
+        "votes": 0
+    },{
+        "title": "15 ans de qualité Web : stop ou encore ?",
+        "datetime": "2016/11/24T13:40",
+        "description": "Entre 2000 et 2016, le Web et les métiers du Web ont énormément évolué, aussi bien du point de vue des technologies que des usages. Entre ces deux dates, j’ai créé une société dédiée à la qualité Web et lancé Opquast, un projet mégalomane qui consiste à créer un répertoire universel de bonnes pratiques qualité Web en licence ouverte. Ce voyage de 15 ans ne s’est pas fait sans surprise et sans accident. J’essayerai de vous raconter comment j’ai perçu ce voyage personnel et professionnel, et j’essayerai de montrer à travers mon regard, la façon dont la qualité Web et l’accessibilité ont évolué au cours des 15 derniers années. Qui sait, cette réflexion nous aidera peut-être à entrevoir ce que pourrait devenir le développement Web au cours les prochaines années.",
+        "speakers": ["Élie Sloïm"],
+        "votes": 0
+    },{
+        "title": "Polymer dans la vraie vie",
+        "datetime": "2016/11/24T14:30",
+        "description": "Ça fait deux ans que je fais des talks de Polymer à droite et à gauche, et une des questions qu’on m’a le plus posé c’est “mais, ça marche dans la vraie vie ?” Je répondais toujours oui, je donnais des exemples, mais j’avais toujours la frustration de ne pas pouvoir le monter car les applications que je fais étaient réservées à nous clients. Mais depuis janvier dernière notre plateforme time-series Warp 10 est open source, et je peux enfin parler de ce que je fais depuis deux ans: coder des applications web complètement basés sur des composants web Polymer, des applications fonctionnelles, utilisées dans tous les navigateurs y que se combinent avec d’autres technologies. Bref, du Polymer dans la vraie vie.",
+        "speakers": ["Horacio Gonzalez"],
+        "votes": 0
+    },{
+        "title": "[Jenkins] Continuous Delivery Pipeline : ce n'est pas toujours un long fleuve tranquille",
+        "datetime": "2016/11/24T14:30",
+        "description": "Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu. Mais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ? Si vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants. Je vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.",
+        "speakers": ["Jean-Philippe Briend"],
+        "votes": 0
+    },{
+        "title": "Conduire un Retour d’Expérience projet",
+        "datetime": "2016/11/24T14:30",
+        "description": "Le Retour d’Expérience Projet permet de faire le point à la fin d’une étape. Il permet d’identifier ce qui à poser problème, dans quel contexte, pourquoi, etc. et sert aussi à identifier ce qui a bien marché et comment le reproduire. Récolter ces éléments, les comprendre, garder de la distance malgré tout, voir comment le réutiliser dans un nouveau contexte, tout en étant sûr de ne pas rater des éléments que l’équipe ne remonterait pas est aussi intéressant que complexe. Transverse à tous les projets chez ekino, j’ai mis en place une organisation de REx qui permet de faire parler chacun et de traiter tous les sujets. Tout n’est pas toujours facile à gérer et j’ai pu voir aussi les faiblesses de ma méthode et comment chercher à y remédier. Je me propose de vous partager tout ça.",
+        "speakers": ["Delphine Malassingne"],
+        "votes": 0
+    },{
+        "title": "Guide de survie de l'internationalisation des sites",
+        "datetime": "2016/11/24T14:30",
+        "description": "L’internationalisation des sites est un domaine fascinant où l’on apprend pléthore de choses dans pleins de domaines : différences culturelles, alphabets surprenants, beautés typographiques… un vrai moment d’exotisme culturel, qui apporte des challenges plutôt intéressants, comme par exemple adapter un site dans des langues qui se lisent de droite à gauche. C’est aussi un domaine où - même avec la meilleure volonté du monde - l’on peut facilement se retrouver bloqué pour des choses apparemment « simples »… qui le deviennent beaucoup moins, car sur certains points, vous ne pouvez PAS improviser. Vous ne parlez pas japonais ? Rassurez-vous, moi non plus. Et pourtant, je dois faire avec. Il m’arrive de devoir faire avec d’autres langues, comme le chinois, le russe, le serbe, le néerlandais ou l’arabe. Et là, l’exotisme se transforme parfois en galère. En prime, il existe une quantité astronomique de petites peaux de bananes sur lesquelles il est très facile de se casser les dents. Je le sais, chacune des choses dont je vous parlerai… je l’ai vécue au moins une fois. Et les soucis ne s’arrêtent pas aux seules traductions. Même le français peut être une galère dans certains cas. Bref, à l’instar de l’intégration, c’est un domaine où l’on apprend principalement… de ses erreurs. Mon objectif : à la fin de cette présentation, vous épargner les difficultés du débutant en internationalisation et vous permettre de démarrer ce genre de projet sous les meilleures auspices, et que cela redevienne une belle destination exotique, garantie sans piqûres de moustiques ! ;)",
+        "speakers": ["Nicolas Hoffmann"],
+        "votes": 0
+    },{
+        "title": "Les fausses bonnes idées croisées dans ma carrière",
+        "datetime": "2016/11/24T15:40",
+        "description": "On a tous déjà connu ce code qui parait résoudre parfaitement un problème donné, mais qui s’avère être la pire idée du monde quelques semaines ou mois plus tard. Depuis le début de ma carrière, je note avec attention toutes ces “fausses bonnes idées”, que j’ai croisé dans les projets sur lesquels j’ai travaillé (et y compris celles dont j’ai été l’auteur). C’est ce recueil que je me propose de parcourir en votre compagnie, à la fois sur des décisions qui ont fait échouer des projets, mais aussi sur des sujets plus légers et parfois amusants.",
+        "speakers": ["Arnaud Lemaire"],
+        "votes": 0
+    },{
+        "title": "Devenir Natif avec React",
+        "datetime": "2016/11/24T15:40",
+        "description": "Assez de développer une application par plateforme et de dupliquer du code métier ? Assez de concevoir des applications hybrides lentes et mal intégrées à leur environnement ? Venez découvrir REACT NATIVE, un framework de développement mobile cross-platform accessible à tous et hype en notre compagnie ! Au programme : React, Redux et ES2015.",
+        "speakers": ["Quentin Bisson", "Julien Leicher"],
+        "votes": 0
+    },{
+        "title": "Votre application web qui marche même sans réseau, c'est possible !",
+        "datetime": "2016/11/24T15:40",
+        "description": "De nouvelles API arrivent afin de permettre d’avoir une vrai expérience offline-first. - La cache API permet par exemple de stocker facilement des assets et d’afficher une application web même sans connexion. - L’API background sync permet d’enregistrer des actions que l’on pourra exécuter une fois qu’on aura une connexion stable. - IndexedDB permet de stocker des données dans une base de donnée locale. Je ferai une très brève introduction du service worker et évoquerai les PWA. Je présenterai ensuite ces 3 technologies avec une partie théorique et une partie live coding Live code en 3 étapes : - Mise en place de la cacheAPI pour pouvoir lancer une application même avec une mauvaise connexion; - Mise en place d’indexDB afin de sauvegarder les informations et les restituer lorsque l’utilisateur lance l’application sans connexion; - Mise en place de background sync avec indexDB dans le service worker afin de permettre à l’utilisateur de modifier les données hors ligne et rejouer les événements une fois la connexion revenue. Et quand tout marche ensemble, c’est sexy !",
+        "speakers": ["Olivier Leplus"],
+        "votes": 0
+    },{
+        "title": "Dev vs Wild",
+        "datetime": "2016/11/24T15:40",
+        "description": "Chaque jour des développeurs risquent leurs vies et celles de leurs collègues pour vous fournir l'application qui révolutionnera votre façon de vivre. Ce métier trop souvent sous estimé pour sa dangerosité mérite néanmoins qu'on s'attarde sur cet aspect. Nous verrons dans ce talk les risques qui pèsent sur les épaules de ces chevaliers des temps modernes et leurs entreprises, puis le récit de « pain tester », un fidèle écuyers.",
+        "speakers": ["Yoann Ono Dit Biot"],
+        "votes": 0
+    },{
+        "title": ".Net Core, réconciliez-vous avec le dev sur des technos Microsoft !",
+        "datetime": "2016/11/24T16:40",
+        "description": "Alors .Net Core ça vaut le coup ? Nous allons voir au travers de l’histoire de .Net et des récents changements chez Microsoft la philosophie modulaire, cross-platform et Open Source de ce framework. Ensuite, les fonctionnalités proposées sont-elles à la hauteur des attentes d’un framework moderne ? Nous passerons en revue les outils externes et internes au framework qui vont permettre de simplifier le développement au travers de cas pratiques. Enfin, nous parlerons déploiement et performance afin de préciser pour quels types de projets utiliser ce framework.",
+        "speakers": ["Julien Baron"],
+        "votes": 0
+    },{
+        "title": "Tout ce que vous ne savez (probablement) pas sur la blockchain",
+        "datetime": "2016/11/24T16:40",
+        "description": "Popularisée par le développement du bitcoin, la technologie blockchain fait aujourd’hui l’objet de toutes les attentions. Cette présentation décrit les principes de fonctionnement d’une blockchain ainsi que quelques cas d’utilisation concrets en listant les impacts sur certains secteurs d’activité.",
+        "speakers": ["Fabrice Croiseaux"],
+        "votes": 0
+    },{
+        "title": "Petit guide de survie dans la complexité d'un projet Web",
+        "datetime": "2016/11/24T16:40",
+        "description": "Qui n’a jamais participé ou entendu parler d’un projet complètement inmaintenable où il n’est plus possible d’ajouter quoi que ce soit sans avoir peur de tout casser ? Pourquoi votre équipe n’arrive-t-elle pas à implémenter une fonctionnalité qui paraît de l’extérieur toute simple ? Pourquoi votre équipe paraît-elle fatiguée et en a-t-elle marre de votre projet, alors que vous les payez cher pour qu’ils bossent dessus ? Cette conférence plongera dans la complexité d’un projet Web, complexité technique mais surtout humaine, où les échanges entre humains sont primordiaux et bien plus complexes que la qualité du code produit. Nous y parlerons de dette technique, d’humains, et surtout d’honnêteté. Public concerné : Toute personne touchant de près ou de loin à un projet Web. Toutes les personnes présentes donc..",
+        "speakers": ["Bastien Jaillot"],
+        "votes": 0
+    },{
+        "title": "SEO : Indexation d'un site web, de la théorie à la pratique",
+        "datetime": "2016/11/24T16:40",
+        "description": "Les développeurs connaissent aujourd’hui pour la plupart les bases du référencement : les balises TITLE et META description, les fichiers robots.txt et sitemap.xml. Mais beaucoup ignorent l’utilisation réelle de ces fichiers par Google (par exemple, il est possible qu’il se fiche de votre sitemap.xml). Dans cette conférence, je vais donc vous présenter les processus de crawl et d’indexation suivis par Google, les différentes “classes” de page, le fonctionnement d’un crawler, les possibilités d’analyse qui vous sont offertes pour contrôler et ajuster le crawl du robot (on parlera de structure de site, de silos, …).",
+        "speakers": ["Simon Georges"],
+        "votes": 0
+    },{
+        "title": "VENOM, la nouvelle stack du développement Web",
+        "datetime": "2017/04/01T23:40",
+        "description": "Devant le succès foudroyant de Vue, Angular2 a été abandonné fin 2016 et la stack MEAN a subi de plein fouet ce revers. Mais, une nouvelle stack est apparue : VENOM pour 'Vue + Express + NOdeJS + MongoDB'. Partons à sa découverte et redécouvrons le plaisir de la simplicité dans le développement.",
+        "speakers": ["Stan Lee"],
+        "votes": 0
+    }
+]}
